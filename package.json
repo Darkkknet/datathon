@@ -1,0 +1,13 @@
+{
+  "name": "cqa-freedom-hackathon",
+  "version": "1.0.0",
+  "description": "Conversation Quality Analytics — оценка качества диалогов операторов",
+  "private": true,
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "node --test",
+    "eval:dev": "node scripts/eval-batch.js DEV"
+  },
+  "engines": { "node": ">=20" }
+}
